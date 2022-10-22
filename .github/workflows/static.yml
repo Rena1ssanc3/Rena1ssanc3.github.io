@@ -39,7 +39,6 @@ jobs:
           cd blog 
           npm install hexo -g 
           npm install 
-          npm install --save hexo-theme-fluid
           hexo clean 
           hexo generate
       - name: Setup Pages
