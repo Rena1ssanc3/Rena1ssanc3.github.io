@@ -34,15 +34,13 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16'
-      - name: Setup Hexo
+      - name: Setup Hexo && Build
         run: |
           npm install hexo -g
           cd blog
           npm install
-      - name: Build
-        run: |
-          cd blog
-          hexo clean && hexo generate && hexo deploy
+          hexo clean
+          hexo generate
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
