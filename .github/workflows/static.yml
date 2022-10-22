@@ -36,7 +36,12 @@ jobs:
           node-version: '14'
       - name: Setup Hexo && Build
         run: |
-          cd blog && npm install hexo -g && npm install && hexo clean && hexo generate
+          cd blog 
+          npm install hexo -g 
+          npm install 
+          npm install --save hexo-theme-fluid
+          hexo clean 
+          hexo generate
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
