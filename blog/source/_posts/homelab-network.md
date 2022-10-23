@@ -1,7 +1,7 @@
 ---
 title: HomeLab系列（二） - 网络
 date: 2022-10-23 19:21:40
-tags: HomeLab Network
+tags: HomeLab
 ---
 
 # 搭建HomeLab的网络需要关心什么
