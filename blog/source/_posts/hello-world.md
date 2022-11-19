@@ -1,5 +1,7 @@
 ---
-title: 第一篇POST
+title: 第一篇POST  
+date: 2022-10-22 00:00:00
+tags: HelloWorld
 ---
 第一次使用hexo，这是我的第一篇post。
 

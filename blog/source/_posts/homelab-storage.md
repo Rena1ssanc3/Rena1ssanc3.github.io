@@ -1,7 +1,7 @@
 ---
 title: HomeLab系列（三） - 存储（上）
 date: 2022-11-13 22:13:39
-tags:
+tags: HomeLab
 ---
 
 # HomeLab存储如何搭建（上）
